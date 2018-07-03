@@ -1,0 +1,25 @@
+{
+    "name": "arshak/menumanager",
+    "description": "Menu manager",
+    "type": "plugin",
+    "authors": [
+        {
+            "name": "Arshak",
+            "email": "arshak.hovhannisyan@matemat.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+"autoload": {
+    "psr-4": {
+        "Arshak\\Menumanager\\": "src/"
+    }
+},
+"extra": {
+    "laravel": {
+        "providers": [
+            "Arshak\\Menumanager\\MenumanagerServiceProvider"
+        ]
+    }
+}
+}
